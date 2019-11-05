@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Jumbotron Image */
+.jumbotron {
+    background-image: url('img/trucker-2946821_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    padding-top: 19rem;
+}
+
+.jumbotron .transportation {
+    text-align: center;
+    color: #ffffff;
+}
+
+.transportation h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.transportation .first {
+    font-size: 2rem;
+}
+
+.transportation .btn {
+    padding: 10px;
+    width: 140px;
+}
+
+.transportation {
+    display: none;
+}
+
+
+/* Comapny */
+.company {
+    text-align: center;
+    padding-top: 6.5rem;
+}
+
+.company .fas, .far {
+    color:#ff3300;
+    font-size: 2rem;
+}
+
+.company-info {
+    display: none;
+}
+
+/* type of Transportation */
+.type-of-cargo {
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 6rem;
+}
+
+.type-of-cargo-text {
+    padding: 6px;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+
+/* About */
+.about img {
+    width: 100%;
+    height:600px;
+}
+
+.about .btn {
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+}
+
+/* Stats */
+.stats {
+    background-image: url('img/truck-1181063_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.stats .truck-stats {
+    padding-top: 7rem;
+}
+
+.stats .truck-stats h1 {
+    color: #ff3300;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+
+.stats .truck-stats p {
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+/* Our Partners */
+.partners  {
+    background-color: #fffaf0;
+    height: 50vh;
+    text-align:center;
+    padding-top: 4rem;
+}
+
+.partners .our-partners {
+    background-color: #ffffff;
+    padding: 26px;
+}
+
+.partners .our-partners:hover {
+    box-shadow: 5px 5px 5px #e8e8e8;
+}
+
+
+/* Contact Form */
+.contact-form h3 {
+   color: #ff3300;
+}
+
+.contact-form {
+   background-color: #ffffff;
+   padding: 14px;
+   box-shadow: 5px 5px 5px #e8e8e8;
+   margin-bottom: 35px;
+   display: none;
+}
+
+.contact {
+    background-color: #fffaf0;
+}
+
+
+.contact-form .btn {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    width: 100px;
+}
+
+.contact h1,.contact-first {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 6px;
+}
+
+.footer-text {
+    padding-top: 12px;
+    text-align: center;
+}
+
+
+/* Mobile Ready */
+@media (max-width: 780px) {
+    .stats .truck-stats {
+        text-align: center;
+    }
+    .stats {
+        height: 100vh;
+        margin-top: 2rem;
+    }
+    .partners {
+        height: 105vh;
+    }
+    .partners .our-partners {
+        margin: 6px;
+    }
+    .contact-form {
+        margin: 6px;
+        margin-bottom: 35px;
+    }
+}
